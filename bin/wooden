@@ -1,0 +1,39 @@
+#!/usr/bin/env node --harmony
+
+"use strict";
+
+let program = require('commander');
+
+// version
+program.version('0.0.1');
+
+program
+	.command('help')
+	.description('show help')
+	.action(() => {
+		program.outputHelp();
+	});
+
+program
+	.command('create [dir]')
+	.description('create empty project')
+	.action(dir => {
+		console.log('create %s', dir);
+	});
+
+program
+	.command('preview [dir]')
+	.description('preview your web page')
+	.action(dir => {
+		console.log('preview %s', dir);
+	});
+
+program
+	.command('build [dir]')
+	.description('build the project to HTML')
+	.option('-o, --output <dir>', 'build the project dir')
+	.action((dir, options) => {
+		console.log('create %s, output %s', dir, options.output);
+	});
+
+program.parse(process.argv);

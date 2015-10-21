@@ -1,0 +1,25 @@
+{
+  "name": "wooden",
+  "version": "1.0.0",
+  "description": "use markdown to build a static web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hacke2/wooden.git"
+  },
+  "author": "hacke2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hacke2/wooden/issues"
+  },
+  "bin": {
+    "wooden": "./bin/wooden"
+  },
+  "homepage": "https://github.com/hacke2/wooden#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}

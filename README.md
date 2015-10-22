@@ -11,4 +11,4 @@ wooden prevew
 
 ## build the project
 
-wooden build [dir] [--output targer]
+wooden build [dir] [--output target]

@@ -1,4 +1,4 @@
-#!/usr/bin/env node --harmony
+#!/usr/bin/env node --harmony --debug
 
 "use strict";
 
@@ -24,9 +24,7 @@ program
 program
 	.command('preview [dir]')
 	.description('preview your web page')
-	.action(dir => {
-		console.log('preview %s', dir);
-	});
+	.action(require('../lib/cmd_preview'));
 
 program
 	.command('build [dir]')

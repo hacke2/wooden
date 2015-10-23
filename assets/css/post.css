@@ -1,0 +1,15 @@
+
+.title {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+article {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.date {
+	margin: 30px 0;
+	text-align: right;
+}

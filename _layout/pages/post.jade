@@ -1,0 +1,11 @@
+extends ../layout
+
+block page_css
+	link(href="/css/post.css",rel="stylesheet")
+
+block content
+	h1.title #{title}
+	article
+		div.date
+			!{date}
+		!{html}

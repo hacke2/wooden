@@ -10,7 +10,7 @@ npm install wooden -g
 
 ## 使用步骤
 
-1. 创建一个空项目
+### 创建一个空项目
 
 ```
 wooden create [dir]
@@ -18,13 +18,13 @@ wooden create [dir]
 
 这个命名会生成一个空的项目，它包含了四个文件：
 
-	* _post // 你的markdown文件放在这里
-	* _layout // 布局文件，在这里我使用的jade
-	* assets // 静态资源
+* _post // 你的markdown文件放在这里
+* _layout // 布局文件，在这里我使用的jade
+* assets // 静态资源
 
 现在你可以在_post里使用markdown写你的文章。
 
-2. 预览网页
+### 预览网页
 
 ```
 wooden prevew
@@ -32,7 +32,7 @@ wooden prevew
 
 这个命令会开启express来预览你的网站
 
-3. 编译网页
+### 编译网页
 
 ```
 wooden build [dir] [--output target]
@@ -88,7 +88,7 @@ npm install wooden -g
 
 ## step
 
-1. create empty project
+### create empty project
 
 ```
 wooden create [dir]
@@ -96,13 +96,13 @@ wooden create [dir]
 
 This command can create empty project, It contains four folders:
 
-	* _post // your markdown file
-	* _layout // layout file by jade
-	* assets //static resources 
+* _post // your markdown file
+* _layout // layout file by jade
+* assets //static resources 
 
 you can user markdown to write your article in "_post" folders now。
 
-2. preview your web page
+### preview your web page
 
 ```
 wooden prevew
@@ -110,7 +110,7 @@ wooden prevew
 
 It is Command will open web server by express.
 
-3. build
+### build
 
 ```
 wooden build [dir] [--output target]

@@ -25,5 +25,8 @@
     "fs-extra": "^0.24.0",
     "jade": "^1.11.0",
     "markdown-it": "^5.0.0"
+  },
+  "devDependencies": {
+      "bower": "^1.6.3"
   }
 }

@@ -1,0 +1,13 @@
+extends ../layout
+
+block page_css
+	link(href="/css/index.css",rel="stylesheet")
+
+block content
+	h1.site-name #{title}
+	article.container
+		ul.article-list
+			each article in articleList
+				li 
+					a(href="#{article.href}", class="article") #{article.title}
+					div.abstract #{article.abstract}

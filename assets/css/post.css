@@ -1,12 +1,13 @@
 
+@media (min-width: 1200px) {
+	.container {
+		width: 700px;
+	}
+}
+
 .title {
 	text-align: center;
 	margin-bottom: 40px;
-}
-
-article {
-	width: 600px;
-	margin: 0 auto;
 }
 
 .date {

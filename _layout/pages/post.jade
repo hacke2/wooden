@@ -5,7 +5,6 @@ block page_css
 
 block content
 	h1.title #{title}
-	article
-		div.date
-			!{date}
-		!{html}
+	article.container
+		div.date !{date}
+		!{content}

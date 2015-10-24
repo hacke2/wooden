@@ -18,9 +18,9 @@ wooden create [dir]
 
 这个命名会生成一个空的项目，它包含了四个文件：
 
-* _post // 你的markdown文件放在这里
-* _layout // 布局文件，在这里我使用的jade
-* assets // 静态资源
+* `_post` 你的markdown文件放在这里
+* `_layout` 布局文件，在这里我使用的jade
+* `assets` 静态资源
 
 现在你可以在_post里使用markdown写你的文章。
 
@@ -96,9 +96,9 @@ wooden create [dir]
 
 This command can create empty project, It contains four folders:
 
-* _post // your markdown file
-* _layout // layout file by jade
-* assets //static resources 
+* `_post` your markdown file
+* `_layout` layout file by jade
+* `assets` static resources 
 
 you can user markdown to write your article in "_post" folders now。
 

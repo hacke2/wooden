@@ -17,9 +17,7 @@ program
 program
 	.command('create [dir]')
 	.description('create empty project')
-	.action(dir => {
-		console.log('create %s', dir);
-	});
+	.action(require('../lib/create'));
 
 program
 	.command('preview [dir]')

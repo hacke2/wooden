@@ -1,0 +1,10 @@
+
+@media (min-width: 1200px) {
+	.container {
+		width: 700px;
+	}
+}
+
+.navbar-right {
+	margin-right: 0;
+}

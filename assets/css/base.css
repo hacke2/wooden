@@ -4,3 +4,7 @@
 		width: 700px;
 	}
 }
+
+.navbar-right {
+	margin-right: 0;
+}

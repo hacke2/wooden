@@ -24,14 +24,12 @@ program
 program
 	.command('preview [dir]')
 	.description('preview your web page')
-	.action(require('../lib/cmd_preview'));
+	.action(require('../lib/preview'));
 
 program
 	.command('build [dir]')
 	.description('build the project to HTML')
 	.option('-o, --output <dir>', 'build the project dir')
-	.action((dir, options) => {
-		console.log('create %s, output %s', dir, options.output);
-	});
+	.action(require('../lib/build'));
 
 program.parse(process.argv);

@@ -8,6 +8,6 @@ block content
 	article.container
 		ul.article-list
 			each article in articleList
-				li 
-					a(href="#{article.href}", class="article") #{article.title}
+				li(class="article")
+					a(href="#{article.href}#{isBuild ? '.html' : ''}", class="article-title") #{article.title}
 					div.abstract #{article.abstract}

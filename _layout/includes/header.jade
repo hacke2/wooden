@@ -1,3 +1,16 @@
 nav.navbar.navbar-default.navbar-static-top.custom-nav(role="navigation")
 	.navbar-header
-		a.navbar-brand(href="/") 首页
+		a.navbar-brand(href="#{isBuild ? '#' : '/'}") 首页
+	.collapse.navbar-collapse
+			ul.nav.navbar-nav.navbar-right
+				li
+					a(href="https://github.com/hacke2/wooden") by wooden
+				li.dropdown
+					a.dropdown-toggle(href="#", data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") 联系我
+						span.caret
+					ul.dropdown-menu
+						li
+							a(href="http://weibo.com/p/1005052330269092") Weibo
+							a(href="https://github.com/hacke2") Github
+							a(href="mailto:hacke2cn@gmail.com") Mail
+

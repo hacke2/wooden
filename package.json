@@ -1,6 +1,6 @@
 {
   "name": "wooden",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "use markdown to build a static web page",
   "main": "index.js",
   "scripts": {
@@ -25,8 +25,5 @@
     "fs-extra": "^0.24.0",
     "jade": "^1.11.0",
     "markdown-it": "^5.0.0"
-  },
-  "devDependencies": {
-      "bower": "^1.6.3"
   }
 }

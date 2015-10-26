@@ -1,6 +1,6 @@
 {
   "name": "wooden",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "use markdown to build a static web page",
   "main": "index.js",
   "scripts": {

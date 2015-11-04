@@ -1,0 +1,109 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><title>hacke2's blog</title><link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"><link href="../assets/css/base.css" rel="stylesheet"><link href="../assets/css/post.css" rel="stylesheet"></head><body><nav role="navigation" class="navbar navbar-default navbar-static-top custom-nav"><div class="navbar-header"><a href="/" class="navbar-brand">首页</a></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav navbar-right"><li><a href="https://github.com/hacke2/wooden">by wooden</a></li><li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle">联系我<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="https://github.com/hacke2">github</a></li><li><a href="http://weibo.com/p/1005052330269092/">Weibo</a></li><li><a href="mailto:hacke2cn@gmail.com">mail</a></li></ul></li></ul></div></nav><h1 class="title">wooden介绍</h1><article class="container"><div class="date">2015-10-23</div><div><h1>wooden</h1>
+<p>使用markdown来创建你的网页</p>
+<!-- more-->
+<h2>安装</h2>
+<pre><code>npm install wooden -g
+</code></pre>
+<h2>使用步骤</h2>
+<h3>创建一个空项目</h3>
+<pre><code>wooden create [dir]
+</code></pre>
+<p>这个命名会生成一个空的项目，它包含了四个文件：</p>
+<ul>
+<li><code>_post</code> 你的markdown文件放在这里</li>
+<li><code>_layout</code> 布局文件，在这里我使用的jade</li>
+<li><code>assets</code> 静态资源</li>
+</ul>
+<p>现在你可以在_post里使用markdown写你的文章。</p>
+<h3>预览网页</h3>
+<pre><code>wooden prevew
+</code></pre>
+<p>这个命令会开启express来预览你的网站</p>
+<h3>编译网页</h3>
+<pre><code>wooden build [dir] [--output target]
+</code></pre>
+<p>当你完成写作并使用以上命名，就可以来更新或者生成为html文件，现在把它放到你的静态服务器上去吧！</p>
+<h2>配置</h2>
+<p>其中，contact支持twitter,fb等其他社交信息</p>
+<pre><code>{
+	&quot;name&quot; : &quot;hacke2's blog&quot;,
+	&quot;contact&quot; : {
+		&quot;github&quot; : &quot;https://github.com/hacke2&quot;,
+		&quot;Weibo&quot; : &quot;http://weibo.com/p/1005052330269092/&quot;,
+		&quot;mail&quot; : &quot;hacke2cn@gmail.com&quot;
+	}
+}
+</code></pre>
+<h2>例子</h2>
+<p>当然，markdown非常简单，相信你已经会了，本系统也支持 <code>&lt;!--more--&gt;</code> 关键字，用来在首页显示摘要</p>
+<pre><code>---
+title : hello, wooden
+---
+
+## abstract
+
+&lt;!-- more--&gt;
+
+&gt;This is quote
+
+article
+</code></pre>
+<h2>下一步计划</h2>
+<ul>
+<li>加入评论系统能够</li>
+<li>分页功能</li>
+</ul>
+<h1>wooden</h1>
+<p>use markdown to build a static web page</p>
+<pre><code>npm install wooden -g
+</code></pre>
+<h2>step</h2>
+<h3>create empty project</h3>
+<pre><code>wooden create [dir]
+</code></pre>
+<p>This command can create empty project, It contains four folders:</p>
+<ul>
+<li><code>_post</code> your markdown file</li>
+<li><code>_layout</code> layout file by jade</li>
+<li><code>assets</code> static resources</li>
+</ul>
+<p>you can user markdown to write your article in &quot;_post&quot; folders now。</p>
+<h3>preview your web page</h3>
+<pre><code>wooden prevew
+</code></pre>
+<p>It is Command will open web server by express.</p>
+<h3>build</h3>
+<pre><code>wooden build [dir] [--output target]
+</code></pre>
+<p>if you done your markdown, you make it to html.you can sent to your static server(e.g github page)</p>
+<h2>config</h2>
+<p>contact can spport twitter,fb..</p>
+<pre><code>{
+	&quot;name&quot; : &quot;hacke2's blog&quot;,
+	&quot;contact&quot; : {
+		&quot;github&quot; : &quot;https://github.com/hacke2&quot;,
+		&quot;Weibo&quot; : &quot;http://weibo.com/p/1005052330269092/&quot;,
+		&quot;mail&quot; : &quot;hacke2cn@gmail.com&quot;
+	}
+}
+</code></pre>
+<h2>example</h2>
+<p>I believe you learned how user markdown to write article, you can user <code>&lt;!--more--&gt;</code> for index page Where can show abstract.</p>
+<pre><code>---
+title : hello, wooden
+---
+
+## abstract
+
+&lt;!-- more--&gt;
+
+&gt;This is quote
+
+article
+</code></pre>
+<h2>next</h2>
+<ul>
+<li>comment system</li>
+<li>Paging</li>
+</ul>
+</div></article><script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.js"></script><script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script></body></html>

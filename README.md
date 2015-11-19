@@ -2,6 +2,8 @@
 
 使用markdown来创建你的网页
 
+![wooden](http://ww1.sinaimg.cn/large/8ae515a4gw1ey6n5ebs9fj20qk06waa9.jpg)
+
 ## 安装
 
 ```
